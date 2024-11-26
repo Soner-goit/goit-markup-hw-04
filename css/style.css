@@ -70,6 +70,11 @@ header {
   color: white;
   text-align: center;
   padding: 100px 24px;
+
+  svg {
+    fill: #FFFFFF;
+    margin-bottom: 16px;
+  }
 }
 
 #Main-1-Navyblue h1 {
@@ -99,15 +104,31 @@ header {
   gap: 24px;
   text-align: center;
 }
+#Main-2-White-Text-Part-Only div:nth-child(1) svg {
+  fill: #2E2F42;
+  margin-bottom: 8px;
+}
 
 #Main-2-White-Text-Part-Only h3 {
   font-size: 20px;
   color: #2E2F42;
 }
-
+#Main-2-White-Text-Part-Only div:nth-child(2) svg {
+  fill: #4D5AE5;
+  margin-bottom: 8px;
+}
+#Main-2-White-Text-Part-Only div:nth-child(3) svg {
+  fill: #404BBF;
+  margin-bottom: 8px;}
 #Main-2-White-Text-Part-Only p {
   font-size: 16px;
   line-height: 1.5;
+}
+
+
+#Main-2-White-Text-Part-Only div:nth-child(4) svg {
+  fill: #2E2F42;
+  margin-bottom: 8px;
 }
 
 #Main-3-Cloud {
