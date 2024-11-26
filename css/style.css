@@ -1,0 +1,214 @@
+/* General Settings */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+a,
+.link {
+  text-decoration: none;
+  color: #2E2F42;
+}
+
+a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  color: #404BBF;
+}
+
+/* Header */
+/* Header */
+header {
+  padding: 24px 1169px 24px 156px;
+
+  background-color: #FFFFFF;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  color: #4D5AE5;
+}
+
+.nav h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2E2F42;
+  cursor: pointer;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.contact-info div {
+  font-size: 14px;
+}
+#Main-1-Navyblue {
+  background-color: #2E2F42;
+  color: white;
+  text-align: center;
+  padding: 100px 24px;
+}
+
+#Main-1-Navyblue h1 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+#Main-1-Navyblue button {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #4D5AE5;
+  padding: 16px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+#Main-1-Navyblue button:hover,
+#Main-1-Navyblue button:focus {
+  background-color: #404BBF;
+}
+
+#Main-2-White-Text-Part-Only {
+  padding: 72px 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  text-align: center;
+}
+
+#Main-2-White-Text-Part-Only h3 {
+  font-size: 20px;
+  color: #2E2F42;
+}
+
+#Main-2-White-Text-Part-Only p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#Main-3-Cloud {
+  background-color: #F4F4FD;
+  padding: 120px 24px;
+  text-align: center;
+}
+
+#Main-3-Cloud h2 {
+  font-size: 36px;
+  color: #2E2F42;
+  padding-bottom: 72px;
+}
+.forth-section__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  flex: 1 1 calc(33.33% - 32px);
+  /* Her satırda 3 öğe olacak şekilde */
+  max-width: calc(33.33% - 32px);
+  /* Eşit genişlik */
+  text-align: center;
+}
+.team-card {
+  text-align: center;
+}
+
+.team-card img {
+  width: 264px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.team-card div {
+  font-size: 16px;
+  color: #2E2F42;
+}
+
+.Main-forth-section {
+  padding: 72px 24px;
+  background-color: #FFFFFF;
+}
+
+.forth-section__title {
+  font-size: 36px;
+  color: #2E2F42;
+  padding-bottom: 48px;
+}
+
+.forth-section__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  text-align: center;
+}
+
+.list-item img {
+  width: 360px;
+  height: auto;
+  object-fit: cover;
+}
+
+.list-item__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2E2F42;
+}
+
+.list-item .text {
+  font-size: 16px;
+  color: #434455;
+}
+
+/* Footer */
+footer {
+  background-color: #2E2F42;
+  color: white;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+footer img {
+  width: 115px;
+  height: auto;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #F4F4FD;
+}
